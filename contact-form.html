@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact-form.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contact-form {
+      width: 400px;
+      border: 1px solid black;
+      padding: 25px;
+      background-color: white;
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Georgia', serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid gray;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 7px 20px;
+      font-size: 14px;
+      border: 1px solid black;
+      background-color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-form">
+    <h2>Contact Form</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone No.:</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+      <label for="reason">Reason for reaching us:</label>
+      <textarea id="reason" rows="4" placeholder="Type your reason here..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>

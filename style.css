@@ -1,0 +1,113 @@
+/* Body background and text font */
+body {
+  background:linear-gradient(to right, #ffffff, #1e3052);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centered white box */
+.container {
+  max-width: 420px;
+  margin: 50px auto;
+  background:linear-gradient(to right, #f1baf8, #c77cfd);
+  padding: 40px;
+  border: 2px solid #3B060A;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.6); /* 👈 shadow added */
+}
+
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Title */
+h2 {
+  font-family: 'Algerian', serif;
+  font-size: 28px;
+  color: #c4e2b6;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* Labels and inputs */
+feConvolveMatrix label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 16px;
+  color: #333;
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus styles */
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #0078d7;
+  outline: none;
+  background-color: #f0f8ff;
+}
+
+/* Inline group for name */
+.inline-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Gender and hobbies */
+.radio_container,
+.checkbox_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.radio_container label,
+.checkbox_container label {
+  font-weight: normal;
+  color: #444;
+}
+
+/* Submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #005fa3;
+}

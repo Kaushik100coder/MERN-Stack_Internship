@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2><u>Registration Form</u></h2>
+    <form>
+      <div class="inline-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+
+      <label>Gender:</label>
+      <div class="radio_container">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+
+      <label>Hobbies:</label>
+      <div class="checkbox_container">
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="coding" name="hobbies" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+      </div>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="italy">Italy</option>
+        <option value="russia">Russia</option>
+        <option value="sri_lanka">Sri Lanka</option>
+        <option value="bangladesh">Bangladesh</option>
+      </select>
+
+      <label for="short_bio">Short Bio:</label>
+      <textarea id="short_bio" name="short_bio" rows="4" placeholder="Write a short bio..."></textarea>
+
+      <button type="submit">Register</button><br>
+    <button type="submit">Submit</button></form>
+  </div>
+</body>
+</html>
